@@ -37,7 +37,7 @@ function ResponsiveAppBar() {
 
   return (
     <AppBar position="static">
-      <Container maxWidth="xl">
+      <Container maxWidth="xl" >
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
@@ -111,7 +111,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            Z-CAR 
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
