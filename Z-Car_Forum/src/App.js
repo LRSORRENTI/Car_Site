@@ -5,11 +5,13 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import Button from '@mui/material/Button';
+import ResponsiveAppBar from './ResponsiveAppBar'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <ResponsiveAppBar />
     <div>
       <Button variant="contained">Hello World</Button>
     </div>
